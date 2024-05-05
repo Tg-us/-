@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: antiquewhite;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border: 5px solid sandybrown; 
+}
+.box1,.box2,.box3,.box4,.box5{
+    flex: 0.2;
+}
+span{
+    float: right;
+}
+div{
+    height: 200px;
+    width: 300px;
+    color:black;
+    position: relative;
+    left: 50%;
+}
+td{
+    border:1px solid black;
+    width:300px;
+    background-color: white;
+}
+table{
+    margin-left: 35%;
+}
+form{
+    margin-left:45% ;
+}
+.B0{
+    flex: 0.5;
+}
